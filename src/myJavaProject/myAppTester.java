@@ -16,8 +16,7 @@ public class myAppTester {
 	  System.out.print("Reverse of the input number is:");
 	  reverseMethod(n);
 	  System.out.println();
-
-	  // add a line below to call your myTestMethod from here  then remove the block comment symbols  
+	  System.out.print("Square of the input number is:"+mySquareMethod(n));  
 
 	}
 	
@@ -33,15 +32,12 @@ public class myAppTester {
 	       }
 	   }
 
-
-	   /* 
-	       add your test method in this space then remove the block comment symbols
-	       public static void myTestMethod(...){
-
-            
-
-		   }
+	//This method returns the square of input number.
+	public static int mySquareMethod(int num){
+		  int n = num * num;
+		  return n;
+	}
 	 
-	   */
+	   
 
 }
